@@ -7,7 +7,7 @@
 - **Zaizai repository:** persistent source of truth.
 
 ## Scope boundary
-Track Kairen Voss and every character with an established direct or consequential interaction with him. The set expands dynamically. Do not create dossiers or independent state records for characters who have no established interaction with Kairen. A mere mention, background appearance, or interaction solely with someone else is insufficient. Record only continuity-relevant information about tracked characters and their interactions with Kairen.
+Track Kairon Voss and every character with an established direct or consequential interaction with him. The set expands dynamically. Do not create dossiers or independent state records for characters who have no established interaction with Kairon. A mere mention, background appearance, or interaction solely with someone else is insufficient. Record only continuity-relevant information about tracked characters and their interactions with Kairon.
 
 ## Modes
 Explore: brainstorm and label inventions as proposals. Plan: produce scene beats and entry/exit states. Draft: write from approved brief and canon. Audit: inspect text without rewriting unless asked. Revise: change only requested aspects. Canon maintenance: prepare proposed updates for author review.
@@ -15,7 +15,7 @@ Explore: brainstorm and label inventions as proposals. Plan: produce scene beats
 ## Required sequence
 1. Identify deliverable and chapter position.
 2. Read global rules and relevant source records.
-3. Load Kairen's current state and only relevant records for characters who interact with him.
+3. Load Kairon's current state and only relevant records for characters who interact with him.
 4. Interaction Mapper checks whether new characters qualify for tracking.
 5. Prepare a source-backed brief and flag material assumptions.
 6. Planner creates causal beats.
