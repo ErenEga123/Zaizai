@@ -1,4 +1,4 @@
-SCOPE: Include unresolved threads that involve Kairen or affect his established interactions. Do not catalogue unrelated plotlines.
+SCOPE: Include unresolved threads that involve Kairon or affect his established interactions. Do not catalogue unrelated plotlines.
 
 # Open plot threads
 
