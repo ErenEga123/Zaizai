@@ -1,3 +1,5 @@
+SCOPE: The scene brief must identify Kairen's role and list only characters interacting with him in this scene. Other characters are not given dossiers or independent state tracking.
+
 # Scene brief
 
 **Status:** blank template — not a story fact.
