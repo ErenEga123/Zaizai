@@ -1,4 +1,4 @@
-SCOPE: Proposals may concern Kairen or characters with evidenced interactions with him only. A newly interacting character may be proposed for inclusion, but is not tracked as canon until author approval.
+SCOPE: Proposals may concern Kairon or characters with evidenced interactions with him only. A newly interacting character may be proposed for inclusion, but is not tracked as canon until author approval.
 
 # Proposed canon changes
 
