@@ -1,4 +1,4 @@
-SCOPE: Track Kairen's knowledge and the knowledge of characters who interact with him, at the relevant story moment. Do not track unrelated characters' private knowledge.
+SCOPE: Track Kairon's knowledge and the knowledge of characters who interact with him, at the relevant story moment. Do not track unrelated characters' private knowledge.
 
 # Knowledge and information boundaries
 
