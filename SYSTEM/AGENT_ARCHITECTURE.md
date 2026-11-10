@@ -1,7 +1,7 @@
 # Zaizai Agent Architecture
 
 ## Product boundary
-One book. tracked focus character: Kairon Voss. Tracked cast: Kairon plus every character with an evidenced direct or consequential interaction with him. This is a dynamic set. Unrelated characters receive no dossiers or independent tracking.
+One book. Tracked focus character: Kairon Voss, an original secondary character added to the existing story. This tracking focus does not make him the original story's protagonist. Tracked cast: Kairon plus every character with an evidenced direct or consequential interaction with him. This is a dynamic set. Unrelated characters receive no dossiers or independent tracking.
 
 ## Orchestration
 The Supervisor executes a staged pipeline. In the current implementation these are logical specialist roles run sequentially by ChatGPT, not independent background model processes.
