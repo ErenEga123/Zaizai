@@ -94,3 +94,9 @@
 ## Источник
 
 Загруженный EPUB «Искусство войны: Эпизод I. Непредвиденный фактор», главы 1–8. Позднейшие главы и внешний канон при составлении этого досье не использовались.
+
+## First meeting with Kairen Voss — Lantilles officers’ gathering
+
+In the added scene at the officers’ gathering on Lantilles, Asoka meets Kairen Voss, who has joined Sumeragi Li Noriega’s existing academy friend group as its fifth member. She experiences a faint, indistinct impression that something about him is unusual. She cannot identify what causes it, does not recognize him as Force-sensitive, and does not form a definite suspicion. The impression quickly passes. This is not knowledge of Kairen’s background or abilities, and it must not be written as such.
+
+**Source/status:** Author-directed addition to the chapter-eight scene in this conversation. Preserve the uncertainty of Asoka’s impression; do not expand it into a discovery.
