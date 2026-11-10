@@ -1,55 +1,59 @@
-# Zaizai — Single-Book Agentic Writing System
+# Zaizai — Kairen-Centered Writing Agent System
 
-Zaizai is an agent-oriented writing workspace for one book. ChatGPT acts as the creative interface and agent runtime; specialized roles perform bounded tasks in a controlled sequence. The repository is the source of truth.
+Zaizai is an agent-oriented workspace for one book, built around the story of Kairen Voss. It tracks Kairen and **every character who actually interacts with him**. This is a dynamic inclusion rule, not a fixed cast list.
 
-## Authority and safety rules
+## Scope boundary
 
-- The author is the sole authority on canon. No agent may promote a proposal or generated prose into canon.
-- The repository, not chat memory, is authoritative.
-- Agents must cite the exact repository records supporting continuity claims.
-- Unknown information stays unknown. Agents must not fill gaps with confident invention.
-- Track character knowledge at a specific point in the timeline.
-- Consequential events require explicit state-delta proposals and downstream consequence checks.
-- Drafting, auditing, and canon approval are separate stages.
-- If a blocking contradiction cannot be resolved from approved material, stop and ask the author one focused question.
+- Kairen Voss is the central reference character.
+- A character enters the tracked cast when they directly interact with Kairen in the story or have a consequential, explicitly established interaction with him.
+- The tracked cast may grow as the story develops. There is no hard-coded whitelist or maximum.
+- Characters with no established interaction with Kairen do not receive individual dossiers and are not independently tracked.
+- Incidental mentions, background crowds, and unrelated characters do not create character records.
+- If a previously untracked character begins interacting with Kairen, create a record from that point and capture only relevant established history. Do not invent a biography.
+- Track the interaction itself and its consequences for Kairen and the other participant.
+
+## Authority
+
+The author is the only canon authority. Agents may retrieve, analyze, plan, draft, and audit. They may propose facts and state changes, but cannot approve them or write them into authoritative canon. The repository is the source of truth, not chat memory.
 
 ## Agent pipeline
 
-1. **Supervisor** classifies the request, assigns agents, enforces gates, and assembles the final response.
-2. **Archivist** retrieves relevant canon and manuscript context, returning a source-backed context packet.
-3. **Continuity Analyst** identifies constraints, contradictions, timeline risks, and knowledge boundaries.
-4. **Planner** creates scene beats and causal transitions.
-5. **Writer** drafts only from the approved brief and beat plan.
-6. **Canon Auditor** checks facts, chronology, locations, character states, relationships, resources, and open threads.
-7. **Knowledge Auditor** checks who knows what, when, and from whom.
-8. **Developmental Editor** checks pacing, motivation, scene function, voice, repetition, and prose.
-9. **Supervisor** reconciles findings, requests revision when needed, and presents proposed canon changes separately.
+1. **Supervisor** routes the task and enforces approval gates.
+2. **Archivist** retrieves relevant source material and tracked-cast records.
+3. **Interaction Mapper** identifies which characters have established interactions with Kairen and updates the proposed tracked-cast scope.
+4. **Continuity Analyst** checks chronology, causality, locations, conditions, resources, and relationships.
+5. **Knowledge Auditor** checks what Kairen and each interacting character know, when, and how.
+6. **Planner** creates causal scene beats.
+7. **Writer** drafts from the approved brief.
+8. **Canon Auditor** checks the draft against approved records.
+9. **Developmental Editor** checks motivation, pacing, voice, and prose.
+10. **Supervisor** consolidates findings and submits any canon/state changes for author approval.
 
-These are logical agent roles. In this initial version they are orchestrated sequentially by ChatGPT using the role contracts in `AGENTS/`; independent background model processes are not yet implemented.
+These are logical roles orchestrated by ChatGPT in sequence. They are not autonomous background processes.
 
 ## Repository map
 
-- `SYSTEM/` — architecture, operating rules, workflow, quality gates.
-- `AGENTS/` — bounded role prompts and output contracts.
-- `CANON/` — author-approved facts only.
-- `STATE/` — current timeline, character states, relationships, open threads.
+- `SYSTEM/` — architecture, workflow, writing protocol, quality gates.
+- `AGENTS/` — specialist role contracts.
+- `CANON/` — author-approved facts about Kairen and the tracked interacting cast.
+- `STATE/` — timeline, current character states, relationships, and open threads relevant to Kairen and those interactions.
 - `MANUSCRIPT/` — chapter drafts and approved text.
-- `WORK/` — task briefs, reports, and proposed changes; never canon by default.
-- `SCHEMAS/` — machine-readable contracts.
-- `TEMPLATES/` — reusable briefs and reports.
+- `WORK/` — briefs, audit reports, and proposed changes; never canon by default.
+- `SCHEMAS/` — data contracts.
+- `TEMPLATES/` — scene briefs and reports.
 - `DECISIONS/` — explicit author decisions.
 
-## Canon statuses
+## Record statuses
 
-- `CANON`: author-approved or explicitly established in approved source material.
-- `PROPOSED`: agent suggestion awaiting author approval.
-- `UNKNOWN`: not established by available sources.
-- `CONTRADICTED`: approved sources disagree; requires resolution.
+- `CANON`: author-approved.
+- `PROPOSED`: awaiting author approval.
+- `UNKNOWN`: not established.
+- `CONTRADICTED`: approved sources disagree.
 
 ## First-use rule
 
-Do not invent a book, characters, setting, or plot. Import the author's existing materials first, reconcile duplicates and conflicts, then ask the author to approve the initial canon baseline.
+Do not invent story facts or populate character dossiers from assumptions. Import the author's existing source material, identify all established Kairen interactions, flag conflicts, and present the proposed initial tracked-cast register for author approval.
 
-## Current implementation
+## Implementation status
 
-The repository contains the agent architecture, role contracts, schemas, and operating workflow. Runtime orchestration is currently performed by ChatGPT; a separate executable orchestrator can be added later without changing canon ownership rules.
+The current system uses ChatGPT as the orchestrator and specialist roles as bounded procedures. Repository-backed prompts and templates support the workflow; no autonomous runtime or background agents are claimed.
