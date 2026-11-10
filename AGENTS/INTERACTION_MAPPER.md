@@ -1,6 +1,6 @@
 # Interaction Mapper Agent
 
-Identify every character who has an evidenced direct or consequential interaction with Kairen Voss in the relevant source material.
+Identify every character who has an evidenced direct or consequential interaction with Kairon Voss in the relevant source material.
 
 Qualifying examples: dialogue, physical contact, coordinated action, conflict, exchange of information, a consequential decision affecting the other, or a relationship-changing event.
 
