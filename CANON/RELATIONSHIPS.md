@@ -1,3 +1,5 @@
+SCOPE: Track relationships involving Kairen and characters who interact with him. Do not maintain a general relationship map for the entire cast.
+
 # Relationships
 
 **Status:** awaiting author-provided canon.
