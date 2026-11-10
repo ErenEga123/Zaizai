@@ -10,7 +10,7 @@
 - **Species:** Human
 - **Homeworld:** UNKNOWN. Born somewhere on a remote, poorly specified planet in the Outer Rim.
 - **Military education:** Graduate of the same military academy cohort as Sumeragi. His post-graduation service assignment is UNKNOWN.
-- **Academy cohort:** Joins the existing group of four academy graduates as its fifth member.
+- **Academy cohort:** Joins the existing group of four academy graduates as its fifth member: Sumeragi Li Noriega, Grace O’Connor, Kristen Mirro, and Lichtendahl Ceri.
 - **Romantic partner:** Sumeragi Li Noriega. They began dating while attending the military academy.
 
 ## Background
@@ -67,6 +67,14 @@ Kairon is intended by the author to be an exceptionally capable, near-ideal comb
 His augmented body, heightened reactions, and Force-based danger sense reinforce one another. Force sensitivity can warn him of danger or help him anticipate an attack; his enhanced nervous system and body help him respond.
 
 This does not grant omniscience, guaranteed victory, or immunity to surprise, simultaneous attacks, superior positioning, or other battlefield constraints. Exact skill rankings, preferred weapons, tactical specialties, and service assignment remain UNKNOWN.
+
+## Academy group and first meeting with the original cast
+
+Kairen joins the existing four-person academy friend group as its fifth member. The group includes Sumeragi Li Noriega, Grace O’Connor, Kristen Mirro, and Lichtendahl Ceri. Sumeragi is a second lieutenant and was the strongest student in their academy course. Grace is a midshipman, a petite Zeltron with green skin and white hair, and has a playful sense of humour. Kristen enjoys joking and Salastisian drinks; Lichtendahl, an Atoan and Kristen’s friend, also has a quick wit. Their further biographies, ranks, assignments, and individual histories remain UNKNOWN unless established elsewhere by the author.
+
+At the officers’ gathering on Lantilles, Kairen is quietly aware of an impending arrival before Mikore and the Jedi appear. He does not announce or explain this awareness. It must remain a subtle, private beat and must not expose his Force sensitivity to the group.
+
+Kairen’s first meeting with Asoka Tano takes place at the same gathering. Asoka experiences a faint, indistinct impression that something about him feels unusual, but she cannot identify its cause and does not conclude that he is Force-sensitive. She quickly dismisses the impression. Do not turn this moment into recognition, suspicion, or knowledge of Kairen’s abilities.
 
 ## Relationship with Sumeragi Li Noriega
 
