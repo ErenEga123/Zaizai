@@ -1,4 +1,4 @@
-SCOPE: Include events involving Kairen or a character interacting with him, plus external events only when they materially affect such an interaction. Do not create a complete world chronology.
+SCOPE: Include events involving Kairon or a character interacting with him, plus external events only when they materially affect such an interaction. Do not create a complete world chronology.
 
 # Chronology
 
