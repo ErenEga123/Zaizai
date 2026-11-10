@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Character Interacting With Kairen",
+  "title": "Character Interacting With Kairon",
   "type": "object",
   "required": ["character_id", "name", "tracking_status", "interactions"],
   "properties": {
@@ -24,7 +24,7 @@
     },
     "relevant_facts": {"type": "array", "items": {"type": "string"}},
     "knowledge_boundaries": {"type": "array", "items": {"type": "string"}},
-    "relationship_to_kairen": {"type": ["string", "null"]},
+    "relationship_to_kairon": {"type": ["string", "null"]},
     "current_state": {"type": ["string", "null"]},
     "open_consequences": {"type": "array", "items": {"type": "string"}},
     "sources": {"type": "array", "items": {"type": "string"}}
