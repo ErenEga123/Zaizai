@@ -1,12 +1,12 @@
-# Zaizai — Kairen-Centered Writing System
+# Zaizai — Kairon-Focused Writing System
 
-Zaizai is an agent-oriented writing workspace for one book. ChatGPT coordinates specialized roles; the repository preserves approved facts and manuscript state.
+Zaizai is an agent-oriented writing workspace for the existing story. ChatGPT coordinates specialist roles; the repository preserves author-approved facts and manuscript continuity.
 
-## Scope: Kairen Voss and his interacting cast
+## Scope: Kairon Voss and his interacting cast
 
-Zaizai tracks Kairen Voss and every character who has an established direct or consequential interaction with him. This is a dynamic set, not a fixed whitelist. A new character enters the tracked cast when such an interaction is established in approved source material or explicitly confirmed by the author.
+Kairon Voss is an original secondary character added to the existing story. He is the focus of this repository's interaction-continuity tracking, not the protagonist of the original story. Track Kairon and every character who has an established direct or consequential interaction with him. This is a dynamic set, not a fixed whitelist. A new character enters the tracked cast when such an interaction is established in approved source material or explicitly confirmed by the author.
 
-Characters who have not interacted with Kairen do not receive individual dossiers or independent state tracking. A passing mention, background appearance, or interaction solely with another character does not qualify. For tracked characters, record only information relevant to continuity with Kairen: interactions, chronology, location when relevant, condition, equipment/resources when relevant, knowledge, relationship changes, and consequences. Do not invent biographies.
+Characters who have not interacted with Kairon do not receive individual dossiers or independent state tracking. A passing mention, background appearance, or interaction solely with another character does not qualify. For tracked characters, record only information relevant to continuity with Kairon: interactions, chronology, location when relevant, condition, equipment/resources when relevant, knowledge, relationship changes, and consequences. Do not invent biographies.
 
 ## Authority
 
@@ -22,7 +22,7 @@ These are logical roles orchestrated by ChatGPT in sequence; they are not autono
 
 - `SYSTEM/` — architecture, workflow, writing protocol, continuity checks.
 - `AGENTS/` — specialist role contracts.
-- `CANON/` — approved facts about Kairen and his interacting cast only.
+- `CANON/` — approved facts about Kairon and his interacting cast only.
 - `CHAPTERS/` — chapter drafts and approved text.
 - `TEMPLATES/` — reusable records and briefs.
 - `WORK/` — proposals and temporary reports; never canon by default.
@@ -33,7 +33,7 @@ CANON = author-approved. DERIVED = unavoidable consequence with cited premises. 
 
 ## First use
 
-Import the author's existing materials, identify all evidenced interactions with Kairen, flag conflicts, and present the initial tracked-cast register for approval. Do not invent story facts or prepopulate character dossiers.
+Use the original manuscript as the source for existing characters and events. Add Kairon as an author-approved original character, then track only characters who interact with him. Do not invent story facts or prepopulate unrelated character dossiers.
 
 ## Runtime status
 
