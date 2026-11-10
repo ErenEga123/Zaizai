@@ -1,3 +1,5 @@
+NOTE: Record only worldbuilding facts needed to understand Kairen Voss or an established interaction with him. Do not build a general world encyclopedia.
+
 # World and setting
 
 **Status:** awaiting author-provided canon.
