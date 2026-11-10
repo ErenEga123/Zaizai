@@ -3,8 +3,8 @@
 A chapter is not marked continuity-clean unless applicable checks were performed against relevant repository sources.
 
 ## Scope gate
-- Kairen's approved state was checked.
-- Every character dossier used has evidence of an interaction with Kairen.
+- Kairon's approved state was checked.
+- Every character dossier used has evidence of an interaction with Kairon.
 - Newly qualifying characters are proposed for inclusion, not silently added.
 - No unrelated character dossier or independent state record was created.
 
@@ -20,7 +20,7 @@ A chapter is not marked continuity-clean unless applicable checks were performed
 - No unsupported numerical or logistical details were invented.
 
 ## Knowledge gate
-- Kairen and each interacting character act only on information they could possess at that moment.
+- Kairon and each interacting character act only on information they could possess at that moment.
 - Information has a plausible source and transmission path.
 - Reader knowledge, POV knowledge, and character knowledge are distinct.
 
