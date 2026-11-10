@@ -1,9 +1,9 @@
 # Writing protocol
 
 ## Scope
-Kairen Voss is the central reference character. Track Kairen and every character who has an established direct or consequential interaction with him. The tracked set is dynamic. Do not maintain dossiers for unrelated characters.
+Kairon Voss is the tracked focus character. Track Kairon and every character who has an established direct or consequential interaction with him. The tracked set is dynamic. Do not maintain dossiers for unrelated characters.
 
-A passing mention, background appearance, or interaction solely between other characters does not qualify. When a new character interacts with Kairen, propose their inclusion and cite the source. Track only facts relevant to continuity with Kairen; do not invent full biographies.
+A passing mention, background appearance, or interaction solely between other characters does not qualify. When a new character interacts with Kairon, propose their inclusion and cite the source. Track only facts relevant to continuity with Kairon; do not invent full biographies.
 
 ## Before prose
 Determine mode, POV, tense, scene objective, emotional turn, and length. Use adjacent approved chapters for conservative defaults when appropriate. A scene brief captures time/place, POV limits, participants, motives, entry conditions, intended change, beats, forbidden outcomes, and dependencies.
@@ -14,7 +14,7 @@ CANON: author-approved. DERIVED: unavoidable consequence with cited premises. PR
 ## Prose rules
 - Write scenes, not summaries, unless summary is requested.
 - Use concrete action, dialogue, sensory detail, and meaningful subtext.
-- Give Kairen and each interacting character a distinct voice grounded in approved material.
+- Give Kairon and each interacting character a distinct voice grounded in approved material.
 - Let characters act on their own goals and incomplete information.
 - Respect travel time, communication delay, physical limits, chain of command, resources, injuries, and consequences.
 - Do not make characters conveniently omniscient.
@@ -24,7 +24,7 @@ CANON: author-approved. DERIVED: unavoidable consequence with cited premises. PR
 - Do not add unrelated character arcs or unapproved major facts.
 
 ## Knowledge boundaries
-For Kairen and each speaking/interacting character, check what they know at the exact scene time. Separate direct observation, reported information, inference, suspicion, and false belief. A character may infer incorrectly; do not present inference as objective fact unless POV permits it.
+For Kairon and each speaking/interacting character, check what they know at the exact scene time. Separate direct observation, reported information, inference, suspicion, and false belief. A character may infer incorrectly; do not present inference as objective fact unless POV permits it.
 
 ## Length and completeness
 Honor requested scope. If asked for a complete chapter, produce a complete chapter with a beginning, development, turn, and ending—not an outline or teaser.
