@@ -1,36 +1,40 @@
-# Zaizai — Writing System
+# Zaizai — Kairen-Centered Writing System
 
-Zaizai is a single-book writing workspace built around a hybrid workflow: ChatGPT performs creative work, while repository-backed canon, explicit state records, and repeatable continuity checks constrain that work.
+Zaizai is an agent-oriented writing workspace for one book. ChatGPT coordinates specialized roles; the repository preserves approved facts and manuscript state.
 
-## Non-negotiable rules
+## Scope: Kairen Voss and his interacting cast
 
-- The author is the sole authority on canon. Nothing becomes canon merely because an assistant proposed or wrote it.
-- The repository is the source of truth. Conversation memory is never authoritative.
-- Separate established facts, hypotheses, proposals, and unresolved questions.
-- Track what each character knows at a specific point in the timeline; never grant knowledge by authorial convenience.
-- Every consequential event must produce explicit state changes and downstream consequences.
-- Draft first, validate second, revise third. Do not silently hide unresolved contradictions.
-- Preserve the author's voice and requested scope. Do not pad scenes or invent plot resolutions to fill gaps.
+Zaizai tracks Kairen Voss and every character who has an established direct or consequential interaction with him. This is a dynamic set, not a fixed whitelist. A new character enters the tracked cast when such an interaction is established in approved source material or explicitly confirmed by the author.
 
-## Workflow
+Characters who have not interacted with Kairen do not receive individual dossiers or independent state tracking. A passing mention, background appearance, or interaction solely with another character does not qualify. For tracked characters, record only information relevant to continuity with Kairen: interactions, chronology, location when relevant, condition, equipment/resources when relevant, knowledge, relationship changes, and consequences. Do not invent biographies.
 
-1. Read `SYSTEM/WORKFLOW.md` and `SYSTEM/WRITING_PROTOCOL.md`.
-2. Load only the canon files and chapter records relevant to the requested scene, plus global constraints.
-3. Prepare a scene brief and continuity assumptions. Ask the author only about blocking ambiguities.
-4. Draft the requested text.
-5. Run the continuity review defined in `SYSTEM/CONTINUITY_CHECK.md`.
-6. Report findings separately: confirmed contradictions, likely issues, and author decisions required.
-7. Apply accepted corrections. Update canon proposals in `WORK/PROPOSED_CANON_CHANGES.md`; do not silently edit authoritative canon.
-8. The author explicitly approves canon changes. Only then are canonical records updated.
+## Authority
+
+The author is the sole authority on canon. Agents may retrieve, analyze, plan, draft, and audit, but cannot silently promote generated material into canon. The repository is the source of truth, not chat memory.
+
+## Agent pipeline
+
+Supervisor routes the task and enforces approval gates. Archivist retrieves relevant source context. Interaction Mapper checks the dynamic tracked-cast boundary. Planner creates causal beats. Writer drafts from the approved brief. Continuity Analyst, Knowledge Auditor, and Canon Auditor independently inspect the result. Developmental Editor reviews prose. Supervisor consolidates findings and submits canon/state changes for author approval.
+
+These are logical roles orchestrated by ChatGPT in sequence; they are not autonomous background processes.
 
 ## Repository map
 
-- `SYSTEM/` — operating rules and review procedure.
-- `CANON/` — author-approved facts for this book.
+- `SYSTEM/` — architecture, workflow, writing protocol, continuity checks.
+- `AGENTS/` — specialist role contracts.
+- `CANON/` — approved facts about Kairen and his interacting cast only.
 - `CHAPTERS/` — chapter drafts and approved text.
-- `WORK/` — temporary briefs, continuity reports, and proposed changes.
-- `TEMPLATES/` — reusable chapter, character, event, and scene formats.
+- `TEMPLATES/` — reusable records and briefs.
+- `WORK/` — proposals and temporary reports; never canon by default.
 
-## Current status
+## Canon statuses
 
-The workspace is initialized. No story canon has been invented or imported. Populate canon from the author's source material before drafting story-specific scenes.
+CANON = author-approved. DERIVED = unavoidable consequence with cited premises. PROPOSAL = awaiting approval. UNKNOWN = not established. CONFLICT = approved sources disagree.
+
+## First use
+
+Import the author's existing materials, identify all evidenced interactions with Kairen, flag conflicts, and present the initial tracked-cast register for approval. Do not invent story facts or prepopulate character dossiers.
+
+## Runtime status
+
+ChatGPT currently orchestrates the specialist roles sequentially. This repository defines the agent contracts and quality gates; it does not claim to run autonomous background agents.
