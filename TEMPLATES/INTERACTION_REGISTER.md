@@ -1,11 +1,11 @@
-# Kairon Interaction Register
+# Interaction Register Template
 
-**Status:** awaiting author approval.
+Use this template to propose a new tracked character only after an evidenced direct or consequential interaction with Kairon Voss. This is a reusable blank template, not the current cast register.
 
-Only characters with evidenced direct or consequential interactions with Kairon Voss belong here. This register expands dynamically; it is not a fixed cast list.
+**Tracking status:** PROPOSED until author-approved.
 
 | Character | First qualifying interaction | Evidence source | Tracking status |
 |---|---|---|---|
-| Kairon Voss | tracked focus character | Author instruction | CANON |
+| [Name] | [What happened] | [Approved source or author instruction] | PROPOSED |
 
-Do not add a character for a passing mention, background appearance, co-presence, or interaction solely with another person. New entries remain PROPOSED until author approval.
+Do not add a character for a passing mention, background appearance, co-presence, or interaction solely with another person. The tracked set expands dynamically and has no fixed whitelist.
