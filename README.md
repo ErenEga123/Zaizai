@@ -23,6 +23,7 @@ These are logical roles orchestrated by ChatGPT in sequence; they are not autono
 - `SYSTEM/` — architecture, workflow, writing protocol, continuity checks.
 - `AGENTS/` — specialist role contracts.
 - `CANON/` — approved facts about Kairon and his interacting cast only.
+- `REFERENCE/ORIGINAL_CAST/` — source-based reference dossiers for existing characters, limited to the chapters named in each file; these do not create independent continuity tracking or expand the Kairon interaction register.
 - `CHAPTERS/` — chapter drafts and approved text.
 - `TEMPLATES/` — reusable records and briefs.
 - `WORK/` — proposals and temporary reports; never canon by default.
