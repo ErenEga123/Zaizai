@@ -1,30 +1,31 @@
 # Operating workflow
 
 ## Roles
-- **Author:** sole canon authority; chooses plot, resolves ambiguity, approves canon updates.
-- **ChatGPT:** planner, drafter, continuity auditor, and editor. It may recommend but cannot declare canon.
-- **Zaizai repository:** persistent source of truth for approved story facts and text.
+- **Author:** sole canon authority; chooses plot, resolves ambiguity, approves tracked-cast and canon updates.
+- **ChatGPT Supervisor:** routes specialist roles, enforces gates, and delivers results.
+- **Specialist agents:** Archivist, Interaction Mapper, Planner, Writer, Continuity Analyst, Knowledge Auditor, Canon Auditor, Developmental Editor.
+- **Zaizai repository:** persistent source of truth.
+
+## Scope boundary
+Track Kairon Voss and every character with an established direct or consequential interaction with him. The set expands dynamically. Do not create dossiers or independent state records for characters who have no established interaction with Kairon. A mere mention, background appearance, or interaction solely with someone else is insufficient. Record only continuity-relevant information about tracked characters and their interactions with Kairon.
 
 ## Modes
-- **Explore:** brainstorm freely; label inventions as proposals.
-- **Plan:** produce scene purpose, beats, POV, setting, participants, entry state, exit state, and dependencies.
-- **Draft:** write using the approved scene brief and loaded canon.
-- **Audit:** inspect existing text against canon without rewriting unless asked.
-- **Revise:** change only requested aspects while preserving unaffected text and facts.
+Explore: brainstorm and label inventions as proposals. Plan: produce scene beats and entry/exit states. Draft: write from approved brief and canon. Audit: inspect text without rewriting unless asked. Revise: change only requested aspects. Canon maintenance: prepare proposed updates for author review.
 
-## Required chapter sequence
-1. Identify the requested deliverable and chapter position.
-2. Read global rules and relevant canon: chronology, character states, relationships, knowledge boundaries, open threads, and adjacent chapters.
-3. Build a compact context packet with source paths for material facts.
-4. Prepare a scene brief. State assumptions that materially affect the outcome.
-5. Draft at the requested length and viewpoint.
-6. Audit timeline, location, injuries, equipment, resources, knowledge, relationships, cause/effect, open threads, and voice.
-7. Revise confirmed defects. Do not invent a fix for an author-owned plot decision.
-8. Deliver prose and a concise audit note.
-9. If story facts changed, stage proposed canon changes. Do not edit CANON until the author explicitly approves.
+## Required sequence
+1. Identify deliverable and chapter position.
+2. Read global rules and relevant source records.
+3. Load Kairon's current state and only relevant records for characters who interact with him.
+4. Interaction Mapper checks whether new characters qualify for tracking.
+5. Prepare a source-backed brief and flag material assumptions.
+6. Planner creates causal beats.
+7. Writer drafts at the requested scope.
+8. Continuity Analyst, Knowledge Auditor, Canon Auditor, and Developmental Editor review the draft.
+9. Revise confirmed defects and report unresolved author decisions.
+10. Propose state/canon changes separately. Never update canon without explicit author approval.
 
 ## Context loading
-Load global instructions every time. Load only relevant character dossiers, timeline windows, state records, relationships, knowledge records, open threads, and adjacent chapter summaries. If relevant records conflict, flag the conflict rather than guessing.
+Load global instructions every time. Load only relevant character dossiers, timeline windows, state records, relationships, knowledge records, open threads, and adjacent chapters. Do not load or maintain unrelated character dossiers. If sources conflict, flag the conflict rather than guessing.
 
 ## Source precedence
 1. Explicit latest author instruction for the current task.
@@ -33,7 +34,5 @@ Load global instructions every time. Load only relevant character dossiers, time
 4. Working drafts and proposals (not canon).
 5. Assistant inference (never canon).
 
-A newer approved retcon supersedes an older fact only within its stated scope. Preserve the historical record.
-
 ## Output discipline
-Do not claim a check was performed unless relevant sources were loaded and examined. Distinguish confirmed contradiction from plausible concern and missing information. Never claim repository changes succeeded unless the GitHub operation returned success.
+Do not claim a check was performed unless relevant sources were loaded. Distinguish confirmed contradiction from plausible concern and missing information. Never claim repository changes succeeded unless GitHub confirms success.

@@ -1,3 +1,5 @@
+SCOPE: Include unresolved threads that involve Kairon or affect his established interactions. Do not catalogue unrelated plotlines.
+
 # Open plot threads
 
 **Status:** awaiting author-provided canon.
