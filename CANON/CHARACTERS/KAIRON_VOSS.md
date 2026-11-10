@@ -9,7 +9,7 @@
 - **Name:** Kairon Voss
 - **Species:** Human
 - **Homeworld:** UNKNOWN. Born somewhere on a remote, poorly specified planet in the Outer Rim.
-- **Affiliation:** Republic military, after graduating from a military academy.
+- **Military education:** Graduate of the same military academy cohort as Sumeragi. His post-graduation service assignment is UNKNOWN.
 - **Academy cohort:** Joins the existing group of four academy graduates as its fifth member.
 - **Romantic partner:** Sumeragi Li Noriega. They began dating while attending the military academy.
 
