@@ -1,4 +1,4 @@
-SCOPE: Track Kairen's state and state/resources of interacting characters or entities only where they affect Kairen or a recorded interaction. No general cast or world-state census.
+SCOPE: Track Kairon's state and state/resources of interacting characters or entities only where they affect Kairon or a recorded interaction. No general cast or world-state census.
 
 # Current world and character state
 
