@@ -1,40 +1,59 @@
 # Architecture
 
-## Operating model
+## Product definition
 
-Zaizai uses a supervised multi-agent pipeline for a single book. Agents are specialized reasoning roles, not independent authorities. The Supervisor owns task routing and quality gates; the author owns canon.
+Zaizai is an agent-oriented writing system for one book, centered on Kairen Voss. Its character-tracking scope is dynamic and interaction-based: Kairen plus every character who has an established direct or consequential interaction with him.
 
-## Components
+## Tracked-cast inclusion rule
+
+A character is included when an interaction with Kairen is depicted in approved manuscript/source material or explicitly confirmed by the author. The register is not a fixed list. It expands when new interactions occur.
+
+Do not create individual dossiers for characters who have not interacted with Kairen. Do not track unrelated cast members merely because they appear in the wider setting. Background presence, passing mention, or an interaction solely between two other characters is insufficient.
+
+For each qualifying interaction, preserve the event, its timing, participants, what each participant knew, what changed, and the consequences for Kairen and the other participant. Create only the minimum dossier needed to maintain continuity; do not fabricate a full biography.
+
+## Agent roles
 
 ### Supervisor
-Interprets the request, selects scope, assigns roles, tracks stage status, handles retries, and assembles the deliverable. It must not invent missing source facts.
+Classifies requests, selects the relevant scope, assigns roles, enforces stage gates, and assembles the response. Never invents source facts or approves canon.
 
 ### Archivist
-Retrieves the minimum sufficient context from CANON, STATE, and MANUSCRIPT. Every factual item in its context packet carries a file path and, where possible, a heading or line range.
+Retrieves the relevant manuscript and approved records. Returns evidence with file paths and precise references. Loads only Kairen and the interacting characters relevant to the current task.
 
-### Analysis agents
-Continuity Analyst, Knowledge Auditor, and Canon Auditor operate independently against the same approved source packet. They report findings; they do not edit canon.
+### Interaction Mapper
+Checks whether a character has an established interaction with Kairen. Maintains a proposed inclusion register and identifies new qualifying participants. Does not add unrelated characters or approve canon changes.
 
-### Creative agents
-Planner converts the request and context into scene beats. Writer produces prose from the approved brief and beats. Developmental Editor reviews narrative effectiveness and style.
+### Continuity Analyst
+Checks chronology, geography, travel, presence, condition, equipment, resources, relationships, and causal consequences across Kairen's interactions.
 
-### Author gate
-Any change to canon, character state, timeline, relationship, resource inventory, or open-thread status is a proposal until the author explicitly approves it.
+### Knowledge Auditor
+Tracks information asymmetry: what Kairen knows, what each interacting character knows, when they learned it, and by what plausible channel.
+
+### Planner
+Builds scene purpose, entry state, causal beats, conflict, turn, and exit state from approved facts.
+
+### Writer
+Drafts requested prose from the approved brief and plan. Does not resolve unknowns by invention.
+
+### Canon Auditor
+Checks the draft against approved canon, state, and manuscript sources. Proposes corrections and state deltas only.
+
+### Developmental Editor
+Reviews motivation, pacing, scene function, character voice, dialogue, repetition, and prose clarity without changing canon.
 
 ## State boundaries
 
-- CANON is immutable to agents.
-- STATE is a derived representation of canon and approved events; updates require author approval.
-- MANUSCRIPT may contain drafts, but a draft is not automatically an approved event.
-- WORK is disposable working material and has no canonical authority.
-- DECISIONS records explicit author approvals and rejections.
+- CANON contains only author-approved facts.
+- STATE is a derived snapshot of approved events and approved character changes.
+- MANUSCRIPT drafts are not automatically canon.
+- WORK contains temporary briefs, audits, and proposals.
+- DECISIONS records explicit author approvals/rejections.
+- The tracked-cast register itself is subject to author approval when initialized or when inclusion is ambiguous.
 
-## Execution modes
+## Execution
 
-**Chat orchestration (current):** ChatGPT invokes the roles sequentially in one conversation, reading the repository before each task. This is not true parallel execution and does not run in the background.
-
-**External orchestration (future):** a small application may call separate model sessions for each role, pass validated JSON packets, and enforce stage transitions. It must preserve the same authority model and repository contracts.
+Current orchestration is sequential in ChatGPT. Each role receives a bounded task and source packet. This is a disciplined agent workflow, not independent background execution. A future external orchestrator may run roles in separate model sessions but must preserve the same data contracts and author gate.
 
 ## Failure handling
 
-If a required source is missing, mark it UNKNOWN. If sources conflict, mark CONTRADICTED and stop dependent decisions. If an audit finds a blocking defect, return to Writer or Planner. Never silently discard a finding.
+Mark missing facts UNKNOWN. Mark source disagreements CONTRADICTED. Stop when a blocking ambiguity would force invention. Preserve audit disagreements and cite evidence. Never silently discard a contradiction.
