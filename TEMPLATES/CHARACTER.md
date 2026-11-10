@@ -1,54 +1,33 @@
-# Character dossier: [NAME]
+# Character interaction dossier: [NAME]
 
-**Canon status:** UNKNOWN until author-approved.
+**Tracking status:** PROPOSED until author-approved.  
+**Qualifying interaction with Kairen:**  
+**Evidence source:**  
 
-## Identity
-- Full name:
-- Aliases / titles:
-- Age / relevant physical traits:
-- Species / origin:
-- Occupation / rank / affiliation:
-- Current location:
+Only create this dossier after an established direct or consequential interaction with Kairen Voss. Keep only information relevant to continuity with Kairen. Do not invent a full biography.
 
-## Personality and behavior
-- Core traits:
-- Wants:
-- Needs:
-- Fears:
-- Values:
-- Flaws:
-- Stress responses:
-- Speech patterns / vocabulary:
+## Identity as established in source
+- Name / aliases / titles:
+- Role or affiliation, if relevant:
+- Relevant abilities and limits:
 
-## Competence and limits
-- Skills:
-- Weaknesses:
-- Physical limits:
-- Equipment / possessions:
+## Interaction history
+| Order / time | Interaction with Kairen | What Kairen knows | What this character knows | Consequence | Source |
+|---|---|---|---|---|---|
 
-## History
-- Approved biography:
-- Significant events:
+## Relationship with Kairen
+- Current state:
+- Evidence for changes:
+- Outstanding obligations/conflicts:
 
-## Relationships
-- Person:
-- Their perspective:
-- Evidence / change:
+## Current continuity state
+- Location, if relevant:
+- Health / injuries / fatigue, if relevant:
+- Equipment / resources, if relevant:
+- Knowledge, beliefs, suspicions, secrets relevant to Kairen:
+- Open consequences:
 
-## Knowledge boundaries
-- Knows:
-- Believes:
-- Suspects:
-- Does not know:
-- Secrets:
-
-## Current state
-- Health / injuries:
-- Emotional state:
-- Resources:
-- Last confirmed update:
-
-## Sources and unresolved points
-- Source paths:
-- Unknowns:
-- Author decisions:
+## Unknowns and conflicts
+- UNKNOWN:
+- CONFLICT:
+- Author decisions required:
